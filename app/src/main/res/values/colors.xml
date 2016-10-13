@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#383535</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#ffffff</color>
+
+    <color name="mainLayout">#e8e8e8</color>
+
+    <color name="tabLayout">#ffffff</color>
+
+    <color name="toolbar">#fd5722</color>
+
+    <color name="fragment_bg">#e5e5e5</color>
+    <color name="text_price_color">#480a0a</color>
+    <color name="text_description_color">#000000</color>
+    <color name="color_shadow_effect">#484848</color>
+    <color name="color_shadow_effect_2">#6f6f6f</color>
+
+    <color name="green">#4cff00</color>
+
+    <color name="fill_color">#6600FFFF</color>
+    <color name="stroke_color">#BB00FFFF</color>
+
+
+</resources>

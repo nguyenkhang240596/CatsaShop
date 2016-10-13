@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kalis.activity.SearchActivity">
+
+    <Button
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:background="@color/toolbar"
+        android:onClick="onCloseButton"
+        android:text="@string/txt_thoat"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:textColor="@color/text_description_color"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSearch"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

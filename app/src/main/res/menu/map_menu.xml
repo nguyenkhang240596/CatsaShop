@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/travel_mode" android:title="Travel Mode"
+        android:orderInCategory="300" app:showAsAction="never" >
+        <menu>
+            <item android:id="@+id/travel_mode_driving" android:title="@string/travel_mode_driving"></item>
+            <item android:id="@+id/travel_mode_walking" android:title="@string/travel_mode_walking"></item>
+            <item android:id="@+id/travel_mode_bicycling" android:title="@string/travel_mode_bicycling"></item>
+            <item android:id="@+id/travel_mode_transit" android:title="@string/travel_mode_transit">
+                <menu>
+                    <item android:id="@+id/transit_mode_bus" android:title="@string/transit_mode_bus"></item>
+                    <item android:id="@+id/transit_mode_subway" android:title="@string/transit_mode_subway"></item>
+                    <item android:id="@+id/transit_mode_train" android:title="@string/transit_mode_train"></item>
+                    <item android:id="@+id/transit_mode_tram" android:title="@string/transit_mode_tram"></item>
+                    <item android:id="@+id/transit_mode_rail" android:title="@string/transit_mode_rail"></item>
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/action_go_to_shop" android:title="@string/action_go_to_shop"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

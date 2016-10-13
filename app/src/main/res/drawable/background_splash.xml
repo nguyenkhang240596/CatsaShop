@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/mainLayout"/>
+    <item
+    android:width="400dp"
+    android:height="800dp"
+    >
+        <bitmap
+        android:gravity="center"
+        android:alpha="10"
+        android:tileMode="mirror"
+        android:src="@mipmap/ic_launcher"/>
+
+    </item>
+
+</layer-list>
